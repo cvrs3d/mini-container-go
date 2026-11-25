@@ -1,0 +1,13 @@
+# Build output
+/mini-container
+*.test
+*.out
+/coverage.out
+
+# Root filesystem contains generated binaries and mutable data; create locally.
+/rootfs/
+
+# Local binaries and temporary files
+/zombie-demo
+*.log
+*.tmp
